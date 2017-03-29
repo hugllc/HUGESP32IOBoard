@@ -1,4 +1,4 @@
-HUG Nano IO Board
+HUG ESP32 IO Board
 ===================
 
 Introduction
@@ -12,7 +12,7 @@ Using the Library
 To use the library, add
 
 ```cpp
-#include <HUGNanoIOBoard.h>
+#include <HUGESP32IOBoard.h>
 ```
 
 to the top of your file.
@@ -26,7 +26,7 @@ and SPEAKER for the speaker.  These can be used anywhere you would use port labe
 as in readAnalog() or writeDigital() calls.
 
 ```cpp
-#include <HUGNanoIOBoard.h>
+#include <HUGESP32IOBoard.h>
 
 void setup(void)
 {
